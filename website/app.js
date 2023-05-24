@@ -25,6 +25,7 @@ async function performAction(e) {
       }
     }
 }
+
 /* Function to GET Web API Data*/
 const getData = async(baseURL, city, key) => {
   const res = await fetch(baseURL + city + key)
@@ -56,6 +57,7 @@ const postData = async ( url = '', data = {})=>{
   }
 };
 
+// Put all data to DOM from server.js
 const rewriteAllData = async () =>{
   const request = await fetch('http://127.0.0.1:5050/getdata');
   try {
