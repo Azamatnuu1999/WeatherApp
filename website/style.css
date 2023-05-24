@@ -44,17 +44,17 @@ body{
 }
 
 .card {
-    margin: 4px;
+    margin: 4px !important;
+    height: fit-content !important;
+    overflow: hidden !important;
     text-align: center;
+    border: 5px solid white;
     background-color: var(--bg-color);
     padding: 5px;
     font-size: 16px;
     line-height: 18px;
 }
 
-.card button {
-    margin-bottom: 4px;
-}
 
 
 /*  Basic Styling To Override Default For Basic HTML Elements */
